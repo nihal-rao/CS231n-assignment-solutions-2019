@@ -232,6 +232,7 @@ class CaptioningRNN(object):
         start,_=word_embedding_forward(start,W_embed)
         H=h0.shape[1]
         prev_c=np.zeros((N,H))
+        next_c=None
         for i in range(max_length):
             if self.cell_type=='rnn':
                 next_h,_=rnn_step_forward(start,h0,Wx,Wh,b)
