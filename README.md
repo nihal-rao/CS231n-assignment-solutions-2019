@@ -8,5 +8,5 @@ Course assignments for cs231n: [Convolutional Neural Networks for Visual Recogni
 * Class Saliency Maps
 * GANS: LSGANs and DCGANs
 
-All assignments are completed using tensforflow 2.
+All assignments are completed using tensorflow 2.
 **A big thank you to all the guys behind CS231n for making this amazing course free for all.** 
